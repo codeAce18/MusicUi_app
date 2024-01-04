@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.container {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 736px;
+    background: linear-gradient(to right bottom,rgba(255, 223, 239, 0.724), rgb(222, 239, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bb-one{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: -45px;
+    top: 110px;
+    background-color: rgb(255, 135, 193);
+}
+.bb-two{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(150, 204, 255);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -230px;
+    left: -100px;
+}
+.bb-three{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 135, 193);
+    border-radius: 50%;
+    position: absolute;
+    right: -150px;
+    top: -230px;
+}
+.bb-four{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: rgb(150, 204, 255);
+}
+
+.container-inside{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* first container */
+.container-one{
+    width: 320px;
+    height: 550px;
+    z-index: 1;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1.8rem;
+    box-shadow: 0px 0px 9px 1px rgba(115, 105, 109, 0.219);
+    padding: 1.5rem;
+}
+
+
+.one-first {
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+.one-second {
+    background: url(../img/three.jpg);
+    /* width: 50px; */
+    width: 140px ;
+    height: 170px;
+    border-radius: 1.5rem;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin: 1rem;
+    position: relative;
+}
+
+.song-coll {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.one-third {
+
+}
+
+.song-one {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* border: 2px solid red; */
+    padding: .2rem 1rem;
+    margin: 5px 0px;
+}
+
+.left {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    background: url(../img/one.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin-right: 1rem;
+
+}
+
+.right {
+
+}
+
+.title {
+    font-size: .8rem;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+}
+
+.name {
+    font-size: .7rem;
+    color: gray;
+    margin-top: .3rem;
+}
+
+.btn > img {
+    width: .8rem;
+    opacity: .5;
+}
+
+.btn {
+    padding: .3rem .7rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.917);
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+
+.relax {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.buttom-item {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem .5rem;
+}
+
+
+.discover {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    opacity: .7;
+}
+
+.one-fourth {
+    /* border: 2px solid red; */
+    background-color: rgba(172, 215, 255, 0.818);
+    width: 100%;
+    height: 125px;
+    position: relative;
+    width: 320px;
+    margin-left: -24px;
+    margin-bottom: -20px;
+    border-bottom-right-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.fourth-one {
+    width: 100%;
+}
+   
+
+
+.fourth-two {
+    /* border: 2px solid green; */
+    background-color: white;
+    border-bottom-right-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding: 1.4rem 3rem;
+    bottom: 0;
+    width: 100%;
+}
+
+.lgo {
+    width: 1.2rem;
+    opacity: .4;
+    cursor: pointer;
+}
+
+
+
+
+.one-menu {
+    width: 1.8rem;
+    opacity: .6;
+}
+
+/* second container */
+.container-two{
+    width: 320px;
+    height: 550px;
+    z-index: 1;
+    background-color: rgb(192, 225, 255);
+    margin: 1rem;
+    border-radius: 1.8rem;
+    box-shadow: 0px 0px 9px 1px rgba(76, 76, 76, 0.219);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.cont-two {
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    border-radius: 1.8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.new-lgo {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.new-one {
+    padding-top: 11px;
+    margin: 0px 9px;
+}
+
+.new-left {
+    background: url(../img/thw.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 2.5px solid white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.7rem;
+}
+
+.disk {
+    background: url(../img/seven.jpg);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    outline: 4px solid white;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.377);
+    margin-bottom: 1.2rem;
+    margin-top: -2rem;
+}
+
+.play-btn {
+    position: relative;
+    top: 40%;
+    left: 38%;
+    transform: scale(1.4);
+}
+
+.play-station {
+    width: 4rem;
+    opacity: .8;
+}
+
+.lg {
+    opacity: 1;
+}
+
+.ff {
+    font-size: .75rem;
+    margin: 0px 6px;
+}
+
+.line-one{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: gray;
+}
+.line-two{
+    font-size: .9rem;
+    color: rgb(94, 94, 94);
+}
+
+
+
+
+
